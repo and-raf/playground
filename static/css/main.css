@@ -39,7 +39,7 @@ body {
   background-color: #dddddd; }
 
 .nav {
-  background-color: #3c3c3d !important; }
+  background-color: #3c3c3d; }
   .nav .logo {
     height: 60px;
     margin: 0 auto; }
@@ -58,16 +58,33 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 80vh; }
+  height: 80vh;
+  text-align: center;
+  color: #dddbdb; }
   .maintext h1 {
-    text-align: center;
     font-size: 500%;
     padding-top: 12%; }
   .maintext .separator {
     width: 50%;
-    color: silver; }
+    height: 1px;
+    color: #cdddf7;
+    background-color: #cdddf7;
+    border: none; }
 
 .page-2 {
-  height: 65vh; }
+  height: 55vh;
+  padding-top: 3%; }
+  .page-2 .citation {
+    font-style: italic;
+    color: #9E9E9E; }
+
+.page-3 {
+  height: 60vh;
+  background-color: #d1d1d1; }
+  .page-3 .btn {
+    background-color: #3c3c3d;
+    color: #e0e0e0; }
+  .page-3 .btn:hover {
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
