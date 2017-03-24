@@ -1,0 +1,26 @@
+@import "reset";
+body{
+  background-color: #dddddd;
+}
+.nav{
+  background-color: #3c3c3d !important;
+  .logo{
+    height: 60px;
+    margin: 0 auto;
+  }
+  .icons{
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 36px;
+    i{
+      color:#dddbdb;
+    }
+  }
+}
+.maintext{
+  height: 80vh;
+  h1{
+    text-align: center;
+    font-size: 500%;
+  }
+}
