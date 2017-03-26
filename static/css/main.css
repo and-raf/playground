@@ -86,36 +86,43 @@ body {
     color: #9E9E9E; }
 
 .page-3 {
-  min-height: 30vh;
+  min-height: 25vh;
   max-height: 200vh;
-  padding-bottom: 20px;
   background-color: #d1d1d1; }
-  @media (max-width: 728px) {
+  @media (max-width: 991px) {
     .page-3 .btn {
       float: right; } }
   .page-3 .btn {
     background-color: #3c3c3d;
-    color: #e0e0e0; }
+    color: #e0e0e0;
+    margin-bottom: 10px; }
   .page-3 .btn:hover {
     color: white; }
+  .page-3 .crab {
+    background: url(../img/pan-krab.jpg) no-repeat fixed;
+    height: auto;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 62.5%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .page-4 {
-  height: 75vh;
+  min-height: 35vh;
   max-height: 200vh;
   text-align: center;
-  padding-top: 8%; }
+  transform: translateY(6%);
+  margin-bottom: 55px; }
   .page-4 p {
     margin-bottom: 45px;
     font-weight: bold; }
   .page-4 img {
-    margin: 0 auto;
-    height: 160px;
-    width: 160px;
-    border: 1px solid black;
-    background: black;
-    -webkit-box-shadow: 6px 10px 80px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 6px 10px 80px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 6px 10px 80px 0px rgba(0, 0, 0, 0.5); }
+    position: relative; }
+    .page-4 img span {
+      position: absolute;
+      top: 0;
+      left: 0; }
   .page-4 img:hover {
     -webkit-filter: brightness(70%);
     filter: brightness(70%); }
@@ -128,5 +135,8 @@ body {
   .footer p {
     color: white;
     padding-top: 3vh; }
+
+.navbar-toggle {
+  background-color: white; }
 
 /*# sourceMappingURL=main.css.map */
